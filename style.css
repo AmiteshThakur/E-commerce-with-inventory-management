@@ -56,7 +56,7 @@ cursor: pointer;
 .my-login-frame
 {
     height: auto;
-    width: 60%;
+    width: auto;
     background-color: #0C356A;
     border-radius: 60px;
     color: white;
