@@ -169,3 +169,18 @@ color: white;
     height:35px;
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Adjusting shadow on hover */
  }
+
+
+
+
+
+ /* about css is starts here */
+
+
+ .my-about-logos
+ {
+
+width:20px;
+margin: 5px;
+cursor: pointer;
+}
