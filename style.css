@@ -117,7 +117,8 @@ color: white;
 
 /* Shopkeeper home css starts here */
 .Shopkeeper-main-buttons{
-     height: 30vh;
+     max-height: 30vh;
+     min-height: 10vh;
     width: 20vw;
     background-image: linear-gradient(to right, #0c61e1, #4461d4, #5a61c7, #6862bb, #7164af);
     border: 10px solid #26507390;
@@ -131,8 +132,8 @@ color: white;
    
 }
  .Shopkeeper-main-buttons:hover{
-  height:30.2vh;
-  width:20.2vw;
+  
+  width:20.5vw;
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Adjusting shadow on hover */
 
  } 
@@ -142,9 +143,11 @@ color: white;
     height: 50px;
     border: none;
     border-radius: 20px;
-    margin: 5px;
+     /* margin: 5px; */
     margin-top: 20px;
+    
     margin-bottom: 20px;
+    /* margin-right: 30px;  */
   
  }
  .Shopkeeper-extra-buttons:hover{
@@ -188,4 +191,29 @@ color: white;
 width:20px;
 margin: 5px;
 cursor: pointer;
+}
+
+
+
+/* Customer Cursol css */
+
+.my-customer-recent-cards:hover{
+    box-shadow: 0 8px 12px rgb(0, 0, 0); 
+}
+
+.my-cart-button:hover{
+    box-shadow: 0 8px 12px rgb(0, 0, 0); 
+}
+
+
+
+
+
+
+
+/* features css is here */
+
+.my-featurs-image{
+    height: auto;
+    width: 200px;
 }
